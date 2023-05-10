@@ -8,6 +8,7 @@ import javax.persistence.PersistenceContext;
 @Repository
 public class MemberRepository {
 
+    //엔티티 매니져 역할
     @PersistenceContext
     private EntityManager em;
 
